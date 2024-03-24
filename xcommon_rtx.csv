@@ -32,6 +32,12 @@ material,mtl_rtx_marker_zm_theater12
 material,mtl_rtx_marker_zm_theater13
 material,mtl_rtx_marker_zm_theater14
 material,mtl_rtx_marker_zm_theater15
+material,mtl_rtx_marker_zm_theater50
+material,mtl_rtx_marker_zm_theater51
+material,mtl_rtx_marker_zm_theater52
+material,mtl_rtx_marker_zm_theater53
+material,mtl_rtx_marker_zm_theater54
+material,mtl_rtx_marker_zm_theater55
 xmodel,mm_zm_theater01
 xmodel,mm_zm_theater02
 xmodel,mm_zm_theater03
@@ -47,6 +53,12 @@ xmodel,mm_zm_theater12
 xmodel,mm_zm_theater13
 xmodel,mm_zm_theater14
 xmodel,mm_zm_theater15
+xmodel,mm_zm_theater50
+xmodel,mm_zm_theater51
+xmodel,mm_zm_theater52
+xmodel,mm_zm_theater53
+xmodel,mm_zm_theater54
+xmodel,mm_zm_theater55
 
 rawfile,maps/zombie_theater.gsc
 rawfile,maps/zombie_theater_fx.gsc

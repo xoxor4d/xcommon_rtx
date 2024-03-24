@@ -139,6 +139,12 @@ spawn_rtx_markers()
 	precachemodel("mm_zm_theater13");
 	precachemodel("mm_zm_theater14");
 	precachemodel("mm_zm_theater15");
+	precachemodel("mm_zm_theater50");
+	precachemodel("mm_zm_theater51");
+	precachemodel("mm_zm_theater52");
+	precachemodel("mm_zm_theater53");
+	precachemodel("mm_zm_theater54");
+	precachemodel("mm_zm_theater55");
 	
 	marker = spawn("script_model", (  -5,	-1250,   215));		marker setmodel("mm_zm_theater01");
 	marker = spawn("script_model", ( 777,	 -642,	 430));		marker setmodel("mm_zm_theater02");
@@ -155,6 +161,14 @@ spawn_rtx_markers()
 	marker = spawn("script_model", (-2631,	-1185,	 120));		marker setmodel("mm_zm_theater13");
 	marker = spawn("script_model", (-2621,	  160,	 126));		marker setmodel("mm_zm_theater14");
 	marker = spawn("script_model", (-971,	1484,	 198));		marker setmodel("mm_zm_theater15");
+
+	flag_wait( "power_on" );
+	marker = spawn("script_model", (  -5,	-1250,   235));		marker setmodel("mm_zm_theater50");
+	marker = spawn("script_model", (1346,	 1385,	 145));		marker setmodel("mm_zm_theater51");
+	marker = spawn("script_model", ( -15,	 1542,	 240));		marker setmodel("mm_zm_theater52");
+	marker = spawn("script_model", ( -16,	  451,	 365));		marker setmodel("mm_zm_theater53");
+	marker = spawn("script_model", ( -964,	 -676,	 205));		marker setmodel("mm_zm_theater54");
+	marker = spawn("script_model", (1580,	  452,	 235));		marker setmodel("mm_zm_theater55");
 
 	/* flag_wait( "all_players_spawned" );
 	wait( 3.0 );
