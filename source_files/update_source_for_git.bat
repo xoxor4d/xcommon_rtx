@@ -5,6 +5,8 @@ xcopy ..\..\..\texture_assets\rtx texture_assets\rtx\ /SY
 echo.
 xcopy ..\..\..\source_data\rtx.gdt source_data\ /SY
 echo.
+xcopy ..\..\..\source_data\rtx_map_markers.gdt source_data\ /SY
+echo.
 xcopy ..\..\..\model_export\rtx model_export\rtx\ /SY
 echo.
 

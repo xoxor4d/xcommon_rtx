@@ -4,6 +4,9 @@ material,mc/mtl_skybox_sp_kowloon
 material,water_default
 material,wc/water_default
 
+material,mtl_rtx_playershadow
+material,mc/mtl_rtx_playershadow
+
 material,mtl_rtx_sky01
 material,mtl_rtx_sky02
 material,mtl_rtx_sky03
