@@ -163,12 +163,50 @@ spawn_rtx_markers()
 	marker = spawn("script_model", (-971,	1484,	 198));		marker setmodel("mm_zm_theater15");
 
 	flag_wait( "power_on" );
-	marker = spawn("script_model", (  -5,	-1250,   235));		marker setmodel("mm_zm_theater50");
-	marker = spawn("script_model", (1346,	 1385,	 145));		marker setmodel("mm_zm_theater51");
-	marker = spawn("script_model", ( -15,	 1542,	 240));		marker setmodel("mm_zm_theater52");
-	marker = spawn("script_model", ( -16,	  451,	 365));		marker setmodel("mm_zm_theater53");
-	marker = spawn("script_model", ( -964,	 -676,	 205));		marker setmodel("mm_zm_theater54");
-	marker = spawn("script_model", (1580,	  452,	 235));		marker setmodel("mm_zm_theater55");
+
+	mpower = [];
+	mpower[0] = spawn("script_model", (  -5,	-1250,   235));		mpower[0] setmodel("mm_zm_theater50");
+	mpower[1] = spawn("script_model", (1346,	 1385,	 145));		mpower[1] setmodel("mm_zm_theater51");
+	mpower[2] = spawn("script_model", ( -15,	 1542,	 240));		mpower[2] setmodel("mm_zm_theater52");
+	mpower[3] = spawn("script_model", ( -16,	  451,	 365));		mpower[3] setmodel("mm_zm_theater53");
+	mpower[4] = spawn("script_model", ( -964,	 -676,	 205));		mpower[4] setmodel("mm_zm_theater54");
+	mpower[5] = spawn("script_model", (1580,	  452,	 235));		mpower[5] setmodel("mm_zm_theater55");
+	
+	for (i = 0; i < mpower.size; i++)
+	{
+		mpower[i] hide();
+	}
+
+	wait(0.4);
+	for (i = 0; i < mpower.size; i++)
+	{
+		mpower[i] show();
+	}
+
+	wait(1.0);
+	for (i = 0; i < mpower.size; i++)
+	{
+		mpower[i] hide();
+	}
+
+	wait(0.2);
+	for (i = 0; i < mpower.size; i++)
+	{
+		mpower[i] show();
+	}
+
+	wait(0.2);
+	for (i = 0; i < mpower.size; i++)
+	{
+		mpower[i] hide();
+	}
+
+	wait(0.5);
+	for (i = 0; i < mpower.size; i++)
+	{
+		mpower[i] show();
+	}
+
 
 	/* flag_wait( "all_players_spawned" );
 	wait( 3.0 );
